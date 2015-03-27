@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VS2010_src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\dataLoader">
+      <UniqueIdentifier>{33ba6645-9b32-4685-860d-42ba5d083613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{13111e0c-83ab-43d0-961d-6c4d1dfa87fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{8270c282-be8d-4951-bfab-826fb2d33be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm">
+      <UniqueIdentifier>{b2d772e8-4a90-446c-8172-2b1a8aaef1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gui">
+      <UniqueIdentifier>{1ab689c7-60bc-457d-bf9a-14401b236967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\input">
+      <UniqueIdentifier>{83f515c1-7e81-45a5-910d-006ec818b271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\os">
+      <UniqueIdentifier>{2edfeec3-850c-4daa-a79d-f97e1bfca28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PlatformPlugins">
+      <UniqueIdentifier>{4ebfac66-5ac4-4270-ac3b-0ea860dc5244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\text">
+      <UniqueIdentifier>{ccf30fec-aec3-4140-8b67-f7bb455a5dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer">
+      <UniqueIdentifier>{a5e25da3-9afc-477f-bb10-3ee1f40db1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm\ai">
+      <UniqueIdentifier>{4966d4ab-ac2f-40a0-a65e-acb4eb44f752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm\physics">
+      <UniqueIdentifier>{34d97abf-d1af-41df-b418-d5591bc8859e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm\sprite">
+      <UniqueIdentifier>{2a0db04a-dfb1-4b4d-b9ba-3d0468d303be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm\state">
+      <UniqueIdentifier>{8a420c87-2113-4cbc-adc6-ca5c32d4c346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm\world">
+      <UniqueIdentifier>{4d9a581c-68e5-418d-9136-7edf797a7f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PlatformPlugins\DirectXPlugin">
+      <UniqueIdentifier>{64c76291-8bd0-4ea9-ab9f-e8b8ed62ee6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\PlatformPlugins\WindowsPlugin">
+      <UniqueIdentifier>{5726e3ca-1d5a-4e7f-9bdb-c8b8d411a4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm\ai\Enemy Bots">
+      <UniqueIdentifier>{4e9caee0-0d10-4b3f-a9bd-d44367c8c31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gsm\ai\Enemy Bots\Bosses">
+      <UniqueIdentifier>{429d39ac-3453-4bbf-8aa3-11b3064b0c88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>VS2010_src</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>VS2010_src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dataLoader\GameDataLoader.h">
+      <Filter>src\dataLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\Game.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\IllegalArgumentException.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\IllegalFileFormatException.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\WStringTable.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\GameGraphics.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\RenderList.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\TextureManager.h">
+      <Filter>src\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\ai\Bot.h">
+      <Filter>src\gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\world\SparseLayer.h">
+      <Filter>src\gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\world\TiledLayer.h">
+      <Filter>src\gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\world\World.h">
+      <Filter>src\gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\world\WorldLayer.h">
+      <Filter>src\gsm\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\state\GameState.h">
+      <Filter>src\gsm\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\state\GameStateManager.h">
+      <Filter>src\gsm\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\sprite\AnimatedSprite.h">
+      <Filter>src\gsm\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\sprite\AnimatedSpriteType.h">
+      <Filter>src\gsm\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\sprite\SpriteManager.h">
+      <Filter>src\gsm\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\physics\BoundingVolume.h">
+      <Filter>src\gsm\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\physics\CollidableObject.h">
+      <Filter>src\gsm\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\physics\PhysicalProperties.h">
+      <Filter>src\gsm\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\physics\Physics.h">
+      <Filter>src\gsm\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\Button.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\Cursor.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\GameGUI.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\OverlayImage.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\ScreenGUI.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\Viewport.h">
+      <Filter>src\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\ButtonEventHandler.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\GameInput.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input\KeyEventHandler.h">
+      <Filter>src\input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer\GameTimer.h">
+      <Filter>src\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\text\BufferedTextFileReader.h">
+      <Filter>src\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\text\GameText.h">
+      <Filter>src\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\text\TextFileWriter.h">
+      <Filter>src\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\text\TextGenerator.h">
+      <Filter>src\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlatformPlugins\DirectXPlugin\DirectXGraphics.h">
+      <Filter>src\PlatformPlugins\DirectXPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlatformPlugins\DirectXPlugin\DirectXTextureManager.h">
+      <Filter>src\PlatformPlugins\DirectXPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlatformPlugins\WindowsPlugin\WindowsInput.h">
+      <Filter>src\PlatformPlugins\WindowsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlatformPlugins\WindowsPlugin\WindowsOS.h">
+      <Filter>src\PlatformPlugins\WindowsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlatformPlugins\WindowsPlugin\WindowsTimer.h">
+      <Filter>src\PlatformPlugins\WindowsPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\os\GameOS.h">
+      <Filter>src\os</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gsm\ai\Bots.h">
+      <Filter>src\gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Attacker.h">
+      <Filter>src\gsm\ai\Enemy Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Defender.h">
+      <Filter>src\gsm\ai\Enemy Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Speedster.h">
+      <Filter>src\gsm\ai\Enemy Bots</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\SecondBoss.h">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\ThirdBoss.h">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\Bullet.h">
+      <Filter>src\gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\game\XACT3Audio.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\game\GameContactListener.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\health.h">
+      <Filter>src\gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\FirstBossRight.h">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\FirstBossLeft.h">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\FirstBossCenter.h">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\max_health.h">
+      <Filter>src\gsm\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\Lives.h">
+      <Filter>src\gsm\ai</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>VS2010_src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dataLoader\GameDataLoader.cpp">
+      <Filter>src\dataLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\Game.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\WStringTable.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\GameGraphics.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\RenderList.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\TextureManager.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\world\SparseLayer.cpp">
+      <Filter>src\gsm\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\world\TiledLayer.cpp">
+      <Filter>src\gsm\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\world\World.cpp">
+      <Filter>src\gsm\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\state\GameStateManager.cpp">
+      <Filter>src\gsm\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\sprite\AnimatedSprite.cpp">
+      <Filter>src\gsm\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\sprite\AnimatedSpriteType.cpp">
+      <Filter>src\gsm\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\sprite\SpriteManager.cpp">
+      <Filter>src\gsm\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\physics\Physics.cpp">
+      <Filter>src\gsm\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Button.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Cursor.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\GameGUI.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\ScreenGUI.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\Viewport.cpp">
+      <Filter>src\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input\GameInput.cpp">
+      <Filter>src\input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\text\BufferedTextFileReader.cpp">
+      <Filter>src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\text\GameText.cpp">
+      <Filter>src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\text\TextFileWriter.cpp">
+      <Filter>src\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlatformPlugins\DirectXPlugin\DirectXGraphics.cpp">
+      <Filter>src\PlatformPlugins\DirectXPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlatformPlugins\DirectXPlugin\DirectXTextureManager.cpp">
+      <Filter>src\PlatformPlugins\DirectXPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlatformPlugins\WindowsPlugin\WindowsInput.cpp">
+      <Filter>src\PlatformPlugins\WindowsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlatformPlugins\WindowsPlugin\WindowsOS.cpp">
+      <Filter>src\PlatformPlugins\WindowsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlatformPlugins\WindowsPlugin\WindowsTimer.cpp">
+      <Filter>src\PlatformPlugins\WindowsPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gsm\ai\Bots.cpp">
+      <Filter>src\gsm\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Attacker.cpp">
+      <Filter>src\gsm\ai\Enemy Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Defender.cpp">
+      <Filter>src\gsm\ai\Enemy Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Speedster.cpp">
+      <Filter>src\gsm\ai\Enemy Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\Bullet.cpp">
+      <Filter>src\gsm\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\game\XACT3Audio.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\game\GameContactListener.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\SecondBoss.cpp">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\ThirdBoss.cpp">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\health.cpp">
+      <Filter>src\gsm\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\FirstBossRight.cpp">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\FirstBossLeft.cpp">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\EnemyBots\Bosses\FirstBossCenter.cpp">
+      <Filter>src\gsm\ai\Enemy Bots\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\max_health.cpp">
+      <Filter>src\gsm\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\SimpleSideScrollerFramework\src\gsm\ai\Lives.cpp">
+      <Filter>src\gsm\ai</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

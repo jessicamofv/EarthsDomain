@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainButtonEventHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainDataLoader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainGame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainKeyEventHandler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainTextGenerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainButtonEventHandler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainDataLoader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainGame.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainKeyEventHandler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Earth%27s Domain 4-26\Earth%27s Domain\src\EarthDomainTextGenerator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sprite_type_list>
+  <sprite_type>blue_player</sprite_type>
+  <sprite_type>attacker_enemy</sprite_type>
+  <sprite_type>defender_enemy</sprite_type>
+  <sprite_type>speedster_enemy</sprite_type>
+  <sprite_type>bullet_1</sprite_type>
+  <sprite_type>bullet_2</sprite_type>
+  <sprite_type>bullet_3</sprite_type>
+  <sprite_type>bullet_4</sprite_type>
+  <sprite_type>health</sprite_type>
+  <sprite_type>boss_1_center</sprite_type>
+  <sprite_type>boss_1_left</sprite_type>
+  <sprite_type>boss_1_right</sprite_type>
+  <sprite_type>laser_1</sprite_type>
+  <sprite_type>max_health</sprite_type>
+  <sprite_type>lives</sprite_type>
+</sprite_type_list>
